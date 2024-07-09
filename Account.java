@@ -86,7 +86,9 @@ public class Account {
     public void setRole(String role) {
         this.role = role;
     }
-
+    public void print(){
+        System.out.println("Hello World");
+    }
     public static String createMD5Hash(String password) {
         try {
             MessageDigest md = MessageDigest.getInstance("MD5");
